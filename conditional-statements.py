@@ -29,3 +29,15 @@ except:
 print('Second', istr)
 
 #Python try-catch is a try-except
+
+#another sample try/except
+
+rawstr = input("Enter a number: ")
+try:
+    ival = int(rawstr)
+except:
+    ival = -1
+if ival > 0:
+    print('Nice Work!')
+else:
+    print("Not a number")
