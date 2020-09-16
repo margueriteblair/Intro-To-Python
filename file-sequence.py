@@ -12,3 +12,6 @@ fhand = open('mbox.txt')
 for line in fhand:
     count = count+1
 print('Line Count: ', count)
+
+#rstrip() non print
+# continue will skip the line
